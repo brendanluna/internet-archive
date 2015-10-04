@@ -28,7 +28,7 @@ Please see the Internet Archive's API [Example queries page](https://archive.org
 var params = {
  q: 'Disneyland AND mediatype:movies AND collection:(home_movies OR prelingerhomemovies)',
  rows: '15',
- fl: ['identifier, title,collection,downloads,description,date']
+ fl: ['identifier,title,collection,downloads,description,date']
 };
 
 ia.advancedSearch(params, function(err, results) {
