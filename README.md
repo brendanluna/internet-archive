@@ -16,7 +16,7 @@ var ia = require('internet-archive');
 
 ```
 
-###Advanced Search
+#### Advanced Search
 
 Create an options/parameters object, and specify the query, number of results to show, and the filter on what information to return for each result.
 
