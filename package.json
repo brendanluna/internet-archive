@@ -1,0 +1,39 @@
+{
+  "name": "internet-archive",
+  "version": "0.1.0",
+  "description": "a module for accessing the Internet Archive API",
+  "main": "index.js",
+  "dependencies": {
+    "qs": "^5.1.0",
+    "request": "^2.64.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blunatic/internet-archive.git"
+  },
+  "keywords": [
+    "internetarchive",
+    "internet",
+    "archive",
+    "videos",
+    "audio",
+    "books",
+    "text",
+    "free",
+    "creative",
+    "commons"
+  ],
+  "author": "blunatic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blunatic/internet-archive/issues"
+  },
+  "homepage": "https://github.com/blunatic/internet-archive#readme",
+  "devDependencies": {
+    "qs": "^5.1.0",
+    "request": "^2.64.0"
+  }
+}
