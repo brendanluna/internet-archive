@@ -7,7 +7,7 @@ An npm module for the [Internet Archive API](https://archive.org/help/json.php).
 
 Only two endpoints are present:
 * `advancedSearch`
-* `featured`
+* `metadata`
 
 Begin by including the module:
 
