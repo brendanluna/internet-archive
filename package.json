@@ -1,14 +1,22 @@
 {
   "name": "internet-archive",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "a module for accessing the Internet Archive API",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "dependencies": {
-    "qs": "^5.1.0",
-    "request": "^2.64.0"
+    "qs": "^5.2.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.5.1",
+    "@types/request-promise": "^4.1.42",
+    "mocha": "^5.2.0",
+    "typescript": "^3.3.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p .",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -26,14 +34,13 @@
     "creative",
     "commons"
   ],
-  "author": "blunatic",
+  "contributors": [
+    "blunatic",
+    "Michael Szul <michael@szul.us>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/blunatic/internet-archive/issues"
   },
-  "homepage": "https://github.com/blunatic/internet-archive#readme",
-  "devDependencies": {
-    "qs": "^5.1.0",
-    "request": "^2.64.0"
-  }
+  "homepage": "https://github.com/blunatic/internet-archive#readme"
 }
