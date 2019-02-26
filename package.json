@@ -1,6 +1,6 @@
 {
   "name": "internet-archive",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "a module for accessing the Internet Archive API",
   "main": "./lib/index.js",
   "dependencies": {
